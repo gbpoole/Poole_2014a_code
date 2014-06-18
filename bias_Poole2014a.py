@@ -84,8 +84,8 @@ def b_s_Poole(s, V_max, z, halo_type, bias_type):
         bias_type (str) : bias type
 
     Returns:
-        A list containing two arrays with the values of `b_s`
-        and `b_x` at each scale
+        A list containing an array with the values of b(s) and
+        and a constant with the large scale bias (b_x).
     """
 
     # Set the bias parameters
